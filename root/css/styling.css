@@ -1,0 +1,107 @@
+/* Page Styling
+================ */
+
+
+    /* IMPORTS
+    ============ */
+
+        /* Opens Sans */
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+        /* font-family: 'Open Sans', sans-serif; */
+    
+    /* ============ */
+
+
+    /* TYPE
+    ============ */
+    
+        body { 
+            font-family: /*"Lucida Sans Unicode", "Lucida Grande", sans-serif*/ 'Open Sans', sans-serif;
+            font-size: 100%;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+        p {
+            font-size: 1em;
+        }
+
+    
+    /* ============ */
+
+
+    /* HTML TAGS
+    ============ */
+
+        * {
+            box-sizing: border-box;
+            list-style: none;
+        }
+
+
+        html, body {
+            width: 100%;
+            height: auto;
+            min-height: 100%;
+        }
+
+        body {
+            background: url(../imgs/overlay-bg.jpg) no-repeat;
+        }
+
+    /* ============ */
+
+
+    /* PAGE STYLING
+    ============ */
+    
+        
+        #site_wrapper {
+            background: #dedede;
+            
+            width: 940px;
+            height: 600px;
+            position: absolute;
+                top: 20%;
+                left: 25%;
+        }
+
+            .catalogue_nav {
+                line-height: 64px;
+                text-transform: uppercase;
+                
+                width: auto;
+                height: 64px;
+                float: left;
+            }
+
+                .nav_item {
+                    margin-right: 20px;   
+                }
+
+                .social_item {
+                    margin-right: 20px;   
+                }
+
+            .section_wrapper {
+                background: #000;
+                border: solid 1px rgba(255,255,255,0.3) !important;
+                opacity: .3;
+                
+                width: 100%;
+                height: 536px;
+                clear: left;
+            }
+
+    
+    /* ============ */
+
+
+
+/* ================ */
