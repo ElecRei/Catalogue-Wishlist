@@ -116,7 +116,7 @@
                         background: #CCC;
                         
                         width: 95%;
-                        height: 300px;
+                        height: 212px;
                         margin: 18px auto 18px auto;
                     }
 
@@ -124,11 +124,40 @@
 
                     .product {
                         background: #FEFEFE;
+                        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
                         
                         width: 25%;
                         height: 100%;
+                        padding: 0px 12px;
+                        position: relative;
                         float: left;
                     }
+
+                        .product h3 {
+                            font-size: 1em;
+                            text-align: center;
+                            
+                            display: block;
+                            width: 80%;
+                            height: 20px;
+                            /* margin: 40px auto; */
+                            position: absolute;
+                        }
+
+                        .product img {
+                            border: inset 1px #000;
+                            
+                            display: block;
+                            width: 100%;
+                            top: 40px;
+                            position: absolute;
+                        }
+
+                        .product span {
+                            display: block;
+                            position: absolute;
+                            top: 400px;
+                        }
 
                 /* Fix
 
