@@ -140,8 +140,7 @@
                             display: block;
                             width: 80%;
                             height: 20px;
-                            /* margin: 40px auto; */
-                            position: absolute;
+                            margin: 40px auto;
                         }
 
                         .product img {
@@ -149,14 +148,8 @@
                             
                             display: block;
                             width: 100%;
-                            top: 40px;
-                            position: absolute;
-                        }
-
-                        .product span {
-                            display: block;
-                            position: absolute;
-                            top: 400px;
+                            margin-top: 14px;
+                            padding: 25px;
                         }
 
                 /* Fix
